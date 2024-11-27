@@ -1,0 +1,35 @@
+body {
+    background-color: #121212;
+    color: #fff;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
+  .card-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .btn {
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: scale(1.05);
+  }
+  
+  .table-hover tbody tr:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .invalid-feedback {
+    display: none;
+    color: #ff6b6b;
+  }
+  
+  input.is-invalid + .invalid-feedback {
+    display: block;
+  }
+  
